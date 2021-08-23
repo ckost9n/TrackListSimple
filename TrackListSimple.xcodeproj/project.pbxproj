@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3CE468D426D290E6003D22B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE468D326D290E6003D22B4 /* AppDelegate.swift */; };
 		3CE468D626D290E6003D22B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE468D526D290E6003D22B4 /* SceneDelegate.swift */; };
-		3CE468D826D290E6003D22B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE468D726D290E6003D22B4 /* ViewController.swift */; };
 		3CE468DB26D290E6003D22B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE468D926D290E6003D22B4 /* Main.storyboard */; };
 		3CE468DD26D290E8003D22B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE468DC26D290E8003D22B4 /* Assets.xcassets */; };
 		3CE468E026D290E8003D22B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE468DE26D290E8003D22B4 /* LaunchScreen.storyboard */; };
+		3CE468E826D2DCE6003D22B4 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE468E726D2DCE6003D22B4 /* TrackListViewController.swift */; };
+		3CE468EC26D42A7B003D22B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE468EB26D42A7B003D22B4 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CE468D026D290E6003D22B4 /* TrackListSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE468D326D290E6003D22B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CE468D526D290E6003D22B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3CE468D726D290E6003D22B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CE468DA26D290E6003D22B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CE468DC26D290E8003D22B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE468DF26D290E8003D22B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE468E126D290E8003D22B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE468E726D2DCE6003D22B4 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		3CE468EB26D42A7B003D22B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				3CE468D326D290E6003D22B4 /* AppDelegate.swift */,
 				3CE468D526D290E6003D22B4 /* SceneDelegate.swift */,
-				3CE468D726D290E6003D22B4 /* ViewController.swift */,
+				3CE468E726D2DCE6003D22B4 /* TrackListViewController.swift */,
+				3CE468EB26D42A7B003D22B4 /* DetailViewController.swift */,
 				3CE468D926D290E6003D22B4 /* Main.storyboard */,
 				3CE468DC26D290E8003D22B4 /* Assets.xcassets */,
 				3CE468DE26D290E8003D22B4 /* LaunchScreen.storyboard */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE468D826D290E6003D22B4 /* ViewController.swift in Sources */,
 				3CE468D426D290E6003D22B4 /* AppDelegate.swift in Sources */,
 				3CE468D626D290E6003D22B4 /* SceneDelegate.swift in Sources */,
+				3CE468E826D2DCE6003D22B4 /* TrackListViewController.swift in Sources */,
+				3CE468EC26D42A7B003D22B4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
